@@ -1,0 +1,137 @@
+<div class="m-index">
+	<header>
+		<!--<img src="/tenong/images/index/biaoti.gif"/>-->
+	</header>
+	<div class="container">
+		<div>
+		<div class="banner">
+			<div class="swiper-container">
+			  <div class="swiper-wrapper">
+			    <div class="swiper-slide"><img src="/tenong/images/index/banner01.gif"/></div>
+			    <div class="swiper-slide"><img src="/tenong/images/index/banner02.gif"/></div>
+			    <div class="swiper-slide"><img src="/tenong/images/index/banner03.gif"/></div>
+			  </div>
+			</div>
+		</div>
+		<article>
+			<p><img src="/tenong/images/index/ic_horn.png"/></p>
+			<ul>
+				<li>特农网精选水果上市了1</li>
+				<li>特农网精选水果上市了2</li>
+				<li>特农网精选水果上市了3</li>
+			</ul>
+		</article>
+		<!---------main---------->
+		<section>
+			<div class="proList">
+				<nav>
+					<p></p>
+					<div class="proNav">
+						<i>热卖推荐</i>
+						<b class="more">更多</b>
+					</div>
+					<p></p>
+				</nav>
+				<ul>
+					<li></li>
+					<li>
+						<i><img src="/tenong/images/index/pro01.gif"></i>
+						<b>蒙牛消减100*8杯酸奶</b>
+					</li>
+					<li></li>
+					<li>
+						<i><img src="/tenong/images/index/pro01.gif"></i>
+						<b>蒙牛消减</b>
+					</li>
+					<li></li>
+					<li>
+						<i><img src="/tenong/images/index/pro01.gif"></i>
+						<b>蒙牛消减</b>
+					</li>
+					<li></li>
+				</ul>
+				<ul>
+					<li></li>
+					<li>
+						<i><img src="/tenong/images/index/pro01.gif"></i>
+						<b>蒙牛消减100*8杯酸奶</b>
+					</li>
+					<li></li>
+					<li>
+						<i><img src="/tenong/images/index/pro01.gif"></i>
+						<b>蒙牛消减</b>
+					</li>
+					<li></li>
+					<li>
+						<i><img src="/tenong/images/index/pro01.gif"></i>
+						<b>蒙牛消减</b>
+					</li>
+					<li></li>
+				</ul>
+			</div>
+			<div class="proList">
+				<nav>
+					<p></p>
+					<div class="proNav">
+						<i>便利净菜</i>
+						<b class="more">更多</b>
+					</div>
+					<p></p>
+				</nav>
+				<ul>
+					<li></li>
+					<li>
+						<i><img src="/tenong/images/index/pro01.gif"></i>
+						<b>蒙牛消减100*8杯酸奶</b>
+					</li>
+					<li></li>
+					<li>
+						<i><img src="/tenong/images/index/pro01.gif"></i>
+						<b>蒙牛消减</b>
+					</li>
+					<li></li>
+					<li>
+						<i><img src="/tenong/images/index/pro01.gif"></i>
+						<b>蒙牛消减</b>
+					</li>
+					<li></li>
+				</ul>
+				<ul>
+					<li></li>
+					<li>
+						<i><img src="/tenong/images/index/pro01.gif"></i>
+						<b>蒙牛消减100*8杯酸奶</b>
+					</li>
+					<li></li>
+					<li>
+						<i><img src="/tenong/images/index/pro01.gif"></i>
+						<b>蒙牛消减</b>
+					</li>
+					<li></li>
+					<li>
+						<i><img src="/tenong/images/index/pro01.gif"></i>
+						<b>蒙牛消减</b>
+					</li>
+					<li></li>
+				</ul>
+			</div>
+		</section>
+		</div>
+	</div>
+	<footer>
+		<ul>
+			<li>
+				<i></i>
+				<b class="active">首页</b>
+			</li>
+			<li>
+				<i></i>
+				<b>购物车</b>
+			</li>
+			<li>
+				<i></i>
+				<b>我</b>
+			</li>
+		</ul>
+	</footer>
+</div>

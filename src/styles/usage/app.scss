@@ -1,0 +1,8 @@
+@charset "utf-8";
+@import "./layout/layout";
+//哪个用swiper哪个里面引入swiper即可，所以swiper不写在app.cssli
+@import "./core/swiper-3.3.1.min.css";
+
+// Views视图
+@import "./modules/index.scss";
+@import "./modules/guide.scss";

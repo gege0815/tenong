@@ -1,0 +1,189 @@
+.m-index{
+    width: 100%;
+    height: 100%;
+    @include flexbox();   //弹性布局
+    @include flex-direction(column);   //页面的大体框架出来，弹性布局方向（column）竖直
+    & > *{
+        width: 100%;
+    }
+    header{
+        height: .44rem;
+        background:#367c1a url(/tenong/images/index/biaoti.gif) no-repeat center center;
+        background-size:2.1rem .43rem;
+    }
+    //-----------------
+    .container{
+       @include flex();    //写flex（）后面必须写相应的宽度
+       width:100%;
+       @include flexbox();
+       @include flex-direction(column);
+       overflow: hidden;
+       //--------------------
+       .banner{
+            height:1.8rem;
+            .swiper-container{
+                width:100%;
+                height: 100%;
+                img{
+                    width:100%;
+                }
+            }
+        }
+        //-------------nav
+        article{
+            background:#f2f2f2;
+            height: 0.3rem;
+            padding: .09rem 0;
+            @include flexbox();
+            p{
+                width: .39rem;
+                height: 100%;
+                img{
+                    width:0.18rem;
+                    height: 0.18rem; 
+                    display: block;
+                    margin:0 auto; 
+                }
+            }
+            ul{
+                @include flex();
+                height: 100%;
+                overflow: hidden;
+                li{
+                    height: 100%;
+                    width:100%;
+                    font-size:12px;
+                }
+            }
+        }
+        //-------------主要内容
+        section{
+            background:#eee;
+            overflow:hidden;
+            @include flex();
+            width:100%;
+           .proList{
+                width:100%;
+//              height:3.2rem;   不能写确切的高度，否则，不适配各种手机设备
+                @include flexbox();
+                @include flex-direction(column);
+                nav{
+                   width:100%;
+                   height:0.34rem;
+                   line-height: .34rem;
+                   margin:0.1rem 0;
+                   font-size: 16px;
+                   @include flexbox();
+                   p{
+                       width:0.08rem;
+                       height:100%;
+                   }
+                   div{
+                       background: pink;
+                       @include flex();
+                       height: 100%;
+                       @include flexbox();
+                       b{
+                           width:.64rem;
+                           height: 100%;
+                           text-align: center;
+                           font-weight: 100;
+                       }
+                       i{
+                           @include flex();
+                           text-indent:0.06rem;
+                       }
+                   }
+                   
+                }
+                ul{
+                    width:100%;
+//                  height: 1.32rem;
+                    @include flexbox();
+                    li:first-child,li:last-child{
+                        width:0.08rem;
+                        height:100%;
+                    }
+                    li:nth-child(3),li:nth-child(5){
+                        width:0.05rem;
+                        height: 100%;
+                        background: #fff;
+                    }
+                    li:nth-child(2),li:nth-child(4),li:nth-child(6){
+                        @include flex();
+                        i,b{
+                            display: block;
+                            font-weight: 100;
+                        }
+                        i{
+                            width:100%;
+                            img{
+                                width:100%;
+                            }
+                        }
+                        b{
+                            width:100%;
+                            background: #fff;
+                            height:0.2rem;
+                            font-size:12px;
+                            line-height: 0.2rem;
+                            white-space: nowrap;
+                            overflow: hidden;
+                            text-overflow: ellipsis;
+                        }
+                    }
+                    
+                }
+           }
+        }
+    }
+    
+    footer{
+        height: .5rem;
+//      background: deepskyblue;
+        ul{
+            width: 100%;
+            height: 100%;
+            @include flexbox();
+            li{
+                @include flex();
+                @include flexbox();
+                @include align-items(center);  //图片水平垂直居中
+                @include justify-content(center);
+                @include flex-direction(column); 
+                margin-top:0.04rem;
+                & > *{
+                    display: block;
+                    font-weight: 100;
+                    font-style: normal;
+                }
+                i{
+                    height:.24rem;
+                    width: .24rem;
+                }
+                b{
+                   color:#999; 
+                   text-align: center;
+                   font-size:12px;
+                   &.active{
+                       color:red;
+                   }
+                }
+                
+            }
+            li:first-child i{
+                    background: url(/tenong/images/index/home_p.png) no-repeat center center;
+                    background-size: 0.24rem 0.24rem;
+            }
+            li:nth-child(2) i{
+                    background: url(/tenong/images/index/cart_n.png) no-repeat center center;
+                    background-size: 0.24rem 0.24rem;
+            }
+            li:last-child i{
+                    background: url(/tenong/images/index/user_n.png) no-repeat center center;
+                    background-size: 0.24rem 0.24rem;
+            }
+            
+        }
+    }
+}
